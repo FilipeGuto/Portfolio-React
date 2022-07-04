@@ -8,6 +8,7 @@ import Project5 from '../../img/port-5.png';
 import Project6 from '../../img/port-6.png';
 import Project7 from '../../img/port-7.png';
 import Project8 from '../../img/port-8.png';
+import Project9 from '../../img/port-9.png';
 
 function Project() {
     return (
@@ -62,7 +63,7 @@ function Project() {
                             <div className="project__meta absolute">
                                 <h5 className="project__text">Formulario - Trybewarts</h5>
                                 <h4 className="project__text">Projeto de formulario, em HTML e CSS.</h4>
-                                <a href="https://filipeguto.github.io/Trybewarts/" target="_blank"className="project__btn" rel="noreferrer">Ver Detalhes</a>
+                                <a href="https://filipeguto.github.io/Trybewarts/" target="_blank" className="project__btn" rel="noreferrer">Ver Detalhes</a>
                             </div>
                         </div>
                     </div>
@@ -96,7 +97,7 @@ function Project() {
                             <div className="project__meta absolute">
                                 <h5 className="project__text">React - NASA</h5>
                                 <h4 className="project__text">Projeto feito com API NASA em react.</h4>
-                                <a href="https://project-nasa-api.vercel.app/"  target="_blank" className="project__btn" rel="noreferrer">Ver Detalhes</a>
+                                <a href="https://project-nasa-api.vercel.app/" target="_blank" className="project__btn" rel="noreferrer">Ver Detalhes</a>
                             </div>
                         </div>
                     </div>
@@ -113,7 +114,7 @@ function Project() {
                             <div className="project__meta absolute">
                                 <h5 className="project__text">App de Receitas</h5>
                                 <h4 className="project__text">Projeto feito em grupo, em React feito para uso em mobile</h4>
-                                <a href="https://project-app-receitas.vercel.app/"  target="_blank" className="project__btn" rel="noreferrer">Ver Detalhes</a>
+                                <a href="https://project-app-receitas.vercel.app/" target="_blank" className="project__btn" rel="noreferrer">Ver Detalhes</a>
                             </div>
                         </div>
                     </div>
@@ -128,7 +129,7 @@ function Project() {
                             <div className="project__meta absolute">
                                 <h5 className="project__text">Wishlist</h5>
                                 <h4 className="project__text">Projeto com base em uma lista de presente,feito em React com uso de bootstrap para todo layout</h4>
-                                <a href="https://wish-list-weld.vercel.app/"  target="_blank" className="project__btn" rel="noreferrer">Ver Detalhes</a>
+                                <a href="https://wish-list-weld.vercel.app/" target="_blank" className="project__btn" rel="noreferrer">Ver Detalhes</a>
                             </div>
                         </div>
                     </div>
@@ -143,7 +144,22 @@ function Project() {
                             <div className="project__meta absolute">
                                 <h5 className="project__text">Coin Store</h5>
                                 <h4 className="project__text">Projeto Full Stack, de um e-commerce, com testes para back e front e deploy</h4>
-                                <a href="https://deft-moxie-065dae.netlify.app/"  target="_blank" className="project__btn" rel="noreferrer">Ver Detalhes</a>
+                                <a href="https://deft-moxie-065dae.netlify.app/" target="_blank" className="project__btn" rel="noreferrer">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col__3">
+                        <div className="project__box pointer relative">
+                            <div className="project__box__img pointer relative">
+                                <div className="project__img__box">
+                                    <img src={Project9} alt="" className="project__img" />
+                                </div>
+                                <div className="mask__effect"></div>
+                            </div>
+                            <div className="project__meta absolute">
+                                <h5 className="project__text">Client LoL</h5>
+                                <h4 className="project__text">Projeto de clone de uma tela windows, com clone do game League of Legends, feito com React com uso de Context, Hooks, toda estlização foi feita com base em CSS puro e apenas os inputs feito com uso de material UI</h4>
+                                <a href="https://client-lol-two.vercel.app/" target="_blank" className="project__btn" rel="noreferrer">Ver Detalhes</a>
                             </div>
                         </div>
                     </div>
